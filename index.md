@@ -16,5 +16,5 @@ type:
 
 ## About the Solana Top 10
 
-The OWASP Solana Programs Top 10 is a standard awareness document that intends to provide Solana developers and security teams with insight into the top 10 vulnerabilities found in programs (aka smart contracts). 
+The OWASP Solana Top 10 is a standard awareness document that intends to provide Solana developers and security teams with insight into the top 10 vulnerabilities found in programs (aka smart contracts). 
 
