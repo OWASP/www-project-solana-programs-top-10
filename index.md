@@ -1,22 +1,22 @@
 ---
 
 layout: col-sidebar
-title: OWASP Solana programs Top 10
-tags: example-tag
+title: OWASP Solana Programs Top 10
+tags: Solana
 level: 2
 type: 
-pitch: A very brief, one-line description of your project
 
 ---
+<div class="alert">
+  <p style="text-align:center">
+    Work in progress. Follow on 
+    <a href="https://twitter.com/SolanaTop10">
+      X (formerly Twitter)
+    </a> for updates.
+  </p>
+</div>
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+## About the Solana Programs Top 10
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+The OWASP Solana Programs Top 10 is a standard awareness document that intends to provide Solana developers and security teams with insight into the top 10 vulnerabilities found in smart contracts. 
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
-
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
-
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 3.5 - Production, 4 - Flagship)
-
-type: code, documentation, or other
