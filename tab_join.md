@@ -1,5 +1,6 @@
 ---
 title: Join
+displaytext: Join
 layout:  null
 tab: true
 order: 2
