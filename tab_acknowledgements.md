@@ -4,7 +4,7 @@ displaytext: Acknowledgements
 layout: null
 tab: true
 order: 3
-tags: smartcontract
+tags: solana
 ---
 
 ## Project Lead
