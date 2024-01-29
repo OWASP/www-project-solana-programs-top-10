@@ -19,7 +19,7 @@ type:
 The OWASP Solana Top 10 is a standard awareness document that intends to provide Solana developers and security teams with insight into the top 10 vulnerabilities found in Solana programs (aka smart contracts). 
 
 ### Top 10
-* S01:2023 - TBD
+* S01:2023 - Integer Overflows and Underflows
 * S02:2023 - TBD
 * S03:2023 - TBD
 * S04:2023 - TBD
@@ -34,7 +34,9 @@ The OWASP Solana Top 10 is a standard awareness document that intends to provide
 
 | Title | Description |
 | -- | -- |
-| S01 - TBD | .. |
+| S01 - Integer Overflows and Underflows | In Rust, integers have a fixed size, leading to potential overflows or underflows if arithmetic operations exceed their storage limits. This can be mitigated by using Rust's checked arithmetic functions. ```rust
+let result = value.checked_add(additional).ok_or(ProgramError::ArithmeticOverflow)?;```
+ |
 | S02 - TBD | .. |
 | S03 - TBD | .. |
 | S04 - TBD | .. |
