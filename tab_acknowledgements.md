@@ -7,7 +7,7 @@ order: 3
 tags: Solana
 ---
 ## 2024 Sponsors
-<img src="/STUK.png" width="500"/>
+<img src="www-project-solana-programs-top-10/STUK.png" width="500"/>
 <h3>Click <a href="https://uk.superteam.fun/"><u>here</u></a> to join your local Solana community</h3>
 
 ## Contributors

@@ -8,11 +8,11 @@
 
 * <div>
     <a href="https://twitter.com/SolanaTop10" style="text-decoration: none;">
-    <img src="/assets/images/SolanaTop10.png" width="62" height="62" style="display: inline-block;"/>
+    <img src="www-project-solana-programs-top-10/assets/images/SolanaTop10.png" width="62" height="62" style="display: inline-block;"/>
     </a>
 
     <a href="https://solana.com/" style="text-decoration: none;">
-    <img src="/assets/images/Solana.png" width="62" height="62" style="display: inline-block;"/>
+    <img src="www-project-solana-programs-top-10/assets/images/Solana.png" width="62" height="62" style="display: inline-block;"/>
     </a>
     </div>
 
