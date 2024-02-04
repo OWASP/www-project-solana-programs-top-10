@@ -35,8 +35,7 @@ The OWASP Solana Top 10 is a standard awareness document that intends to provide
 | Title | Description |
 | -- | -- |
 | S01 - Integer Overflows and Underflows | In Rust, integers have a fixed size, leading to potential overflows or underflows if arithmetic operations exceed their storage limits. This can be mitigated by using Rust's checked arithmetic functions. ```rust
-let result = value.checked_add(additional).ok_or(ProgramError::ArithmeticOverflow)?;```
- |
+let result = value.checked_add(additional).ok_or(ProgramError::ArithmeticOverflow)?;```|
 | S02 - Missing System Account Check | .. |
 | S03 - Lack of Error Handling | .. |
 | S04 - Insecure Randomness Generation | .. |
