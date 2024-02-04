@@ -34,9 +34,9 @@ The OWASP Solana Top 10 is a standard awareness document that intends to provide
 
 | Title | Description |
 | -- | -- |
-| S01 - Integer Overflows and Underflows | In Rust, integers have a fixed size, leading to potential overflows or underflows if arithmetic operations exceed their storage limits. This can be mitigated by using Rust's checked arithmetic functions.|
+| S01 - Integer Overflows and Underflows | Integer overflows and underflows occur in Rust when arithmetic operations exceed the storage limits of a variable's type, leading to unexpected wraparound. Rust's fixed-size integers cannot inherently prevent this, but using checked arithmetic functions (`checked_add`, `checked_sub`, `checked_div`, `checked_mul`) helps avoid these issues by returning a `None` value for operations that would overflow or underflow, allowing for safer error handling and preventing potentially exploitable conditions in Solana smart contracts.|
 | S02 - Missing System Account Check | The Missing System Account Check vulnerability in Solana smart contracts arises when contracts interact with sysvar accounts without verifying their authenticity. Sysvar accounts provide essential blockchain data, like timestamps or fee parameters. Attackers might mimic these accounts, leading to misinformation or exploitation. To mitigate this, developers should hardcode the expected sysvar account public keys in their contracts and validate these keys before interacting with the accounts. This ensures the contract only uses legitimate sysvar data, safeguarding against manipulations. |
-| S03 - Lack of Error Handling | .. |
+| S03 - Lack of Error Handling | The "Lack of Error Handling" vulnerability in Solana smart contracts occurs when functions that can return errors are called without checking these errors. This oversight can lead to unintended consequences, as failed operations might not be caught, potentially causing logic flaws or security vulnerabilities in the contract's execution. Properly handling errors, such as by using Rust's `?` operator to propagate errors, ensures that contracts behave predictably and securely, even in the face of unexpected conditions. |
 | S04 - Insecure Randomness Generation | .. |
 | S05 - Panic Due to Division by Zero | .. |
 | S06 - Account Initialized Check | .. |
