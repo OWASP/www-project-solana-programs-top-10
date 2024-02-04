@@ -35,18 +35,7 @@ The OWASP Solana Top 10 is a standard awareness document that intends to provide
 | Title | Description |
 | -- | -- |
 | S01 - Integer Overflows and Underflows | In Rust, integers have a fixed size, leading to potential overflows or underflows if arithmetic operations exceed their storage limits. This can be mitigated by using Rust's checked arithmetic functions.|
-| S02 - Missing System Account Check | The Missing System Account Check vulnerability in Solana smart contracts arises when contracts interact with sysvar accounts without verifying their authenticity. Sysvar accounts provide essential blockchain data, like timestamps or fee parameters. Attackers might mimic these accounts, leading to misinformation or exploitation. To mitigate this, developers should hardcode the expected sysvar account public keys in their contracts and validate these keys before interacting with the accounts. This ensures the contract only uses legitimate sysvar data, safeguarding against manipulations. 
-Common sysvars
-Clock: SysvarC1ock11111111111111111111111111111111
-EpochSchedule: SysvarEpochSchedu1e111111111111111111111111
-Fees: SysvarFees111111111111111111111111111111111
-Instructions: Sysvar1nstructions1111111111111111111111111
-RecentBlockhashes: SysvarRecentB1ockHashes11111111111111111111
-Rent: SysvarRent111111111111111111111111111111111
-SlotHashes: SysvarS1otHashes111111111111111111111111111
-SlotHistory: SysvarS1otHistory11111111111111111111111111
-StakeHistory: SysvarStakeHistory1111111111111111111111111
-SPL token program: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA |
+| S02 - Missing System Account Check | The Missing System Account Check vulnerability in Solana smart contracts arises when contracts interact with sysvar accounts without verifying their authenticity. Sysvar accounts provide essential blockchain data, like timestamps or fee parameters. Attackers might mimic these accounts, leading to misinformation or exploitation. To mitigate this, developers should hardcode the expected sysvar account public keys in their contracts and validate these keys before interacting with the accounts. This ensures the contract only uses legitimate sysvar data, safeguarding against manipulations. |
 | S03 - Lack of Error Handling | .. |
 | S04 - Insecure Randomness Generation | .. |
 | S05 - Panic Due to Division by Zero | .. |
