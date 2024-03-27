@@ -23,6 +23,7 @@ Proposed Solana Top 10 by Individuals or Organizations
 
 Details: [https://github.com/OWASP/www-project-solana-programs-top-10/blob/main/Madshield.pdf](https://github.com/OWASP/www-project-solana-programs-top-10/blob/main/Madshield.pdf)
 
+
 <h3><a href="https://osec.io/">OtterSec</a></h3>
 1. Missing Account Checks
 2. Rounding Bugs
@@ -45,6 +46,7 @@ Details: [https://github.com/OWASP/www-project-solana-programs-top-10/blob/main/
 7. Error not handled
 
 Details: [https://github.com/OWASP/www-project-solana-programs-top-10/issues/1](https://github.com/OWASP/www-project-solana-programs-top-10/issues/1)
+
 
 <h3><a href="https://www.sec3.dev/">Sec3Dev</a></h3>
 1. Missing account correlation checks
@@ -70,4 +72,6 @@ Details: [https://github.com/OWASP/www-project-solana-programs-top-10/issues/1](
 9. Lack of Signature Validation
 10. Reentrancy Attacks
 
-Details: [https://github.com/OWASP/www-project-solana-programs-top-10/pull/2](https://github.com/OWASP/www-project-solana-programs-top-10/pull/2)https://github.com/OWASP/www-project-solana-programs-top-10/pull/2
+Details: [https://github.com/OWASP/www-project-solana-programs-top-10/pull/2](https://github.com/OWASP/www-project-solana-programs-top-10/pull/2)
+
+
