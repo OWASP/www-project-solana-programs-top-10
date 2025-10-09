@@ -1,0 +1,20 @@
+audience:
+  - builder
+  - defender
+leaders:
+  - name: Daniel Zhukovsky
+    email: daniel.z@owasp.org
+    github: danielvzh
+level: 2
+name: OWASP Solana Top 10
+pitch: Description for OWASP Solana Top 10
+repositories:
+  - name: www-project-solana-programs-top-10
+    url: https://github.com/OWASP/www-project-solana-programs-top-10
+    description: OWASP Foundation Web Repository
+tags:
+  - Solana
+  - custom-tag-1
+  - custom-tag-2
+type: documentation
+website: https://owasp.org/www-project-solana-programs-top-10
